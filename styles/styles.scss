@@ -1,0 +1,39 @@
+// Override template styles or write your custom styles
+.select {
+  width: 60px;
+  font-size: 11px;
+}
+
+.styled-input label[for] {
+  font-size: 10pt;
+}
+
+.custom-loader {
+  animation: loader 1s infinite;
+  display: flex;
+}
+
+@keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.theme--light.v-data-table td {
+  color: rgb(0 0 0 / 68%) !important;
+}
+
+.v-text-field--outlined.v-input--dense .v-label--active {
+  font-weight: 400 !important;
+}
+
+.v-application--is-ltr .v-text-field .v-label--active {
+  font-weight: 600 !important;
+}
+
+.v-card-title {
+  font-weight: 600;
+}
